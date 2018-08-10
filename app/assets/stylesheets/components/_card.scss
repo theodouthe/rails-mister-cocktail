@@ -1,9 +1,9 @@
 .card {
   height: 175px;
-  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.2);
   background-size: cover !important;
   background-position: center;
-  color: white;
+  color: #B52B65;
   position: relative;
 }
 .card-user {
@@ -19,6 +19,7 @@
   left: 10px;
   font-size: 15px;
   text-transform: uppercase;
+  color: #B52B65;
 }
 .card-description {
   position: absolute;
@@ -45,4 +46,19 @@
 }
 .card-link:hover {
   opacity: 0.1;
+}
+
+.card-image {
+  background-image: asset-url('cocktail_example.jpg');
+  background-size: cover;
+  color: #eee;
+  text-align: center;
+  padding-top: 40vh;
+}
+
+.card-trash {
+  z-index: 5;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
